@@ -1,0 +1,23 @@
+table {
+    border-collapse: separate;
+    border: 3px solid black;
+    /*text-transforma: uppercase;*/
+  }
+
+table th, table td{
+    border: 1px solid White;
+    text-align: center; 
+}
+
+th{
+    color: white;
+    background-color: #ea6d82;
+}
+
+img{
+    height: 50px;
+}
+
+.orange{
+    background-color: #f8d9b3;
+}

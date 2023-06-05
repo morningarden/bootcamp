@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>Sign up</h1>
+
+    <!-- Always start with tho <form> element
+            Do not forget to add to action and method attributes 
+            action => Where your date will be taken to when you click sbmit
+            method => How your date will be taken when you click submit
+        -->
+    <form action="#" method="#">
+        <label for="full-name">Full Name</label><!--make sure to add a label to your form-->
+        <input type="text" name="full_name" id="full-name" placeholder="First Name M.I. Last Name" required><!-- TEXT INPUT-->
+        <!-- placeholder shows a sample text inside the input field-->
+        <!-- add required to the input field if you do not want to submit an empty field-->
+        <br>
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" placeholder="Username" required>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required><!--Password INPUT-->
+
+        <br>
+        <label for="age">Enter your age</label>
+        <input type="number" name="age" id="age" min="0" max="80" required><!--number input-->
+        <!-- min attribute defines the minimum value the number input will take -->
+        <!-- max attribute defines the maximum value the number input-->
+        <br>
+        <label for="birthday">Birthday</label>
+        <input type="date" name="birthday" id="birthday"><!-- Date input -->
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="bio">Bio / Description</label>
+        <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+
+        <br>
+        <!-- Radio Button -->
+        <p>Select genre of music</p>
+
+        <input type="radio" name="music" id="rock" value="rock">
+        <label for="rock">Rock</label>
+        <br>
+        <input type="radio" name="music" id="pop" value="pop">
+        <label for="pop">Pop</label>
+        <br>
+        <input type="radio" name="music" id="jazz" value="jazz">
+        <label for="jazz">Jazz</label>
+
+        <!-- Check Box-->
+        <p>Select your favorite food</p>
+        <input type="checkbox" name="food" id="ramen" value="ramen">
+        <label for="ramen">Ramen</label>
+        <br>
+        <input type="checkbox" name="food" id="sushi" value="sushi">
+        <label for="sushi">Sushi</label>
+        <br>
+        <input type="checkbox" name="food" id="curry" value="curry">
+        <label for="curry">Curry</label>
+        
+        <br>
+        <!--Dropdown list box-->
+        <label for="device">Select your device</label>
+        <select name="device" id="device">
+            <option selected disabled>Select a device</option>
+            <option value="mobiile">Mobile Phone</option>
+            <option value="table">Mobile Table</option>
+            <option value="laptop">Laptop Computer</option>
+            <option value="dektop">Desktop Computer</option>
+        </select>
+        
+        <!-- multipule selected-->
+        <br>
+        <label for="device">Select your device</label>
+        <select name="device" id="device" multiple>
+            <option selected disabled>Select a device</option>
+            <option value="mobiile">Mobile Phone</option>
+            <option value="table">Mobile Table</option>
+            <option value="laptop">Laptop Computer</option>
+            <option value="dektop">Desktop Computer</option>
+        </select>
+
+        <!--File input-->
+        <br>
+        <label for="photo">Upload profile photo</label>
+        <input type="file" name="photo" id="photo">
+
+        <!-- input type="submit" -->
+        <br>
+        <input type="submit" value="Submit" name="btn_submit">
+
+        <!-- button type="submit"-->
+        <button type="submit" name="btn_submit">Submit Form</button>
+        <br>
+
+        <!-- reset button =>clears your form of its value-->
+        <input type="reset" value="Clear Form" name="btn_reset">
+
+    </form>
+</body>
+</html>

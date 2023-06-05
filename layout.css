@@ -1,0 +1,96 @@
+p{
+    border: 1px solid black;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.clear-none{
+    clear: none;
+}
+
+.clear-left{
+    clear: left;
+}
+
+.clear-right{
+    clear: right;
+}
+
+.clear-both{
+    clear: both;
+}
+
+div{
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    border: 1px solid red;
+    margin: 25px;
+}
+
+.position-static{
+    position: static;
+    right: 50px; /*positional proerties will not work because positon is set to static*/
+}
+
+.position-relative{
+    position: relative;
+    left: -50%;
+}
+
+/*.position-absoulute{
+    position: absolute;
+    right: 0;
+}*/
+
+/*.position-fixed{
+    position: fixed;
+    top: 0;
+}*/
+
+.parent{
+    background-color: yellow;
+    height: 500px;
+    position: relative;
+}
+
+.child{
+    background-color: teal;
+    margin: 0;
+    width: 100px;
+    height: 100px;
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+.display-inline{
+    display: inline;
+}
+
+.display-block{
+    background-color: thistle;
+    display: block;
+    height: 50px;
+    width: 85%;
+    margin: auto;
+}
+
+.display-inline-block{
+    display: inline-block;
+    width: 250px;
+    height: 100px;
+    margin-top: 25px;
+    background-color: tomato;
+}
+
+.display-none{
+    display: none;
+}

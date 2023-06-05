@@ -1,0 +1,189 @@
+.w-50px{
+    width: 50px;
+}
+
+.w-25-percent{
+    width: 25%;
+}
+
+.h-100px{
+    height: 100px;
+}
+
+.h-50-percent{
+    height: 50%;
+}
+
+.bg-image-cover{
+    height: 500px;
+    width: 100%;
+    background-image: url(../images/pexels-pixabay-326012.jpg);
+    background-size: cover;
+}
+
+.bg-image-contain{
+    height: 500px;
+    width: 100%;
+    background-image: url(../images/pexels-anna-shvets-4587971.jpg);
+    background-size: contain;
+}
+
+.bg-image-250px-400px{
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/pexels-anna-shvets-4587971.jpg);
+    background-size: 250px 400px;
+}
+
+.bg-repeat-no-repeat{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+}
+
+.bg-repeat-repeat-y{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+    background-image: url(../images/dot.jpg);
+    background-repeat: repeat-y;
+}
+
+.bg-repeat-repeat-x{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+    background-image: url(../images/dot.jpg);
+    background-repeat: repeat-x;
+}
+
+.bg-repeat-repeat{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+    background-image: url(../images/dot.jpg);
+    background-repeat: repeat;
+}
+
+.bg-position-left-top{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.bg-position-left-center{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.bg-position-left-bottom{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.bg-position-center-top{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.bg-position-center-center{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.bg-position-center-bottom{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.bg-position-right-top{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.bg-position-right-center{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.bg-position-right-bottom{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+    background-image: url(../images/dot.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.bg-attachment-scroll{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+    background-image: url(../images/pexels_1568468563-1024x682.jpg);
+    background-attachment: scroll;
+}
+
+.bg-attachment-fixed{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+    background-image: url(../images/pexels_1568468563-1024x682.jpg);
+    background-attachment: fixed;
+}
+
+.bg-img{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+    /* background-image: bg-color bg-image bd^repeat bd-attachment bg^position*/
+
+    background: yellow url(../images/pexels_1568468563-1024x682.jpg) no-repeat fixed center center;

@@ -1,0 +1,21 @@
+.card{
+    width: 100px;
+    box-shadow: 5px 5px 10px 10px lightgray;
+    margin: 20px;
+    float: left;
+}
+
+.card img{
+    width: 190px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.tx-card{
+    padding: 5px 15px;
+}
+
+.pc-women{
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}

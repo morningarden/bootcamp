@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en"><!--root element -> wraps/hold everything together in your page-->
+<head><!--contains the information inside the webpage-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML</title> 
+</head>
+<body> <!--holds or contains the contents that you see on your browser-->
+    <h1>Hello World!</h1>
+    <h1>Nesting Elements</h1>
+    <p>My name is Kirby</p>
+    <p>My name is <strong>Kirby</strong></p>
+    <hr>
+    <h1>HTML Typography</h1>
+    <h1>The most important text</h1>
+    <h2>The 2nd most important text</h2>
+    <h3>The 3rd Most Important Text</h3>
+    <h4>Headline 4</h4>
+    <h5>Headline 5</h5>
+    <h6>The least important Text</h6>
+    <hr>
+    <h1>Paragraph</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quod doloribus corporis ratione voluptatibus corrupti id libero officia assumenda ex, animi, illum possimus. <br>Quaerat, dolore? Ad, at! Voluptates, quia cupiditate!</p>
+    <hr>
+    <h1>Links</h1>
+    <a href="https:/google.com">Click to go to Google</a>
+    <a href="https:/bing.com">Click to go to Bing</a>
+    <a href="https:/facebook.com">Click to go to Facebook</a>
+
+    <hr>
+    <h1>Lists</h1>
+    <h2>Ordered List</h2>
+    <ol>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ol>
+
+    <h2>Unordered List</h2>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <h2>Nested list</h2>
+    <ol>
+        <li>Fruits
+            <ul>
+                <li>Banana</li>
+                <li>Apple</li>
+            </ul>
+        </li>
+        <li>Desserts
+            <ul>
+                <li>Chocolate Bar</li>
+                <li>Cake</li>
+            </ul>
+        </li>
+    </ol>
+    <hr>
+    <h1>HTML Images</h1>
+    <!-- broken Link -->
+    <img src="assets/images/test.jpg" alt="test.jpg">
+    <!-- photo from the internet -->
+    <img src="https://images.pexels.com/photos/1032650/pexels-photo-1032650.jpeg" alt="sunset by the beach" width="" height="300px">
+    <!-- photo my the local computer -->
+    <div style="height: 700px;"><!--parent element-->
+        <img src="assets/images/pexels-anna-shvets-4587971.jpg" alt="dog" height="25%"><!--child element-->
+        <!-- NOTE: to use percentage for the height, the parent element should have a fixed height assigned -->
+    </div>
+</body>
+</html>

@@ -1,0 +1,182 @@
+
+.m-10px{
+    background-color: blueviolet;
+    margin: 10px;
+}
+
+.m-10px-20px{
+    background-color: cadetblue;
+    margin: 10px 20px;
+}
+
+.m-10px-20px-30px{
+    background-color: darkred;
+    margin: 10px 20px 30px;
+
+}
+
+.m-10px-20px-30px-40px{
+    background-color: darkolivegreen;
+    margin: 10px 20px 30px 40px;
+
+}
+
+.mt-10px{
+    background-color: deepskyblue;
+    margin-right: 10px;
+
+}
+
+.mr-10px{
+    background-color: forestgreen;
+    margin-right: 10px;
+}
+
+.mb-10px{
+    background-color: lightpink;
+    margin-bottom: 10px;
+}
+
+.ml-10px{
+    background-color: dodgerblue;
+    margin-left: 10px;
+}
+
+.p-10px{
+    background-color: firebrick;
+    padding: 10px;
+}
+.p-10px-20px{
+    background-color: darkorange;
+    padding: 10px 20px;
+}
+.p-10px-20px-30px{
+    background-color: lightseagreen;
+    padding: 10px 20px 30px;
+}
+.p-10px-20px-30px-40px{
+    background-color: limegreen;
+    padding: 10px 20px 30px 40px;
+}
+.pt-10px{
+    background-color: darkslategray;
+    padding-top: 10px;
+}
+.pr-10px{
+    background-color: deeppink;
+    padding-right: 10px;
+}
+.pb-10px{
+    background-color: deepskyblue;
+    padding-bottom: 10px;
+}
+.pl-10px{
+    background-color: red;
+    padding-left: 10px;
+}
+
+.border-solid{
+    margin: 20px;
+    border: 10px solid tomato;
+}
+
+.border-dashed{
+    margin: 20px;
+    border: 10px dashed blue;
+}
+
+.border-dotted{
+    margin: 20px;
+    border: 10px dotted green;
+}
+
+.border-double{
+    margin: 20px;
+    border: 10px double darkmagenta;
+}
+
+.border-groove{
+    margin: 20px;
+    border: 10px groove lightcoral;
+}
+
+.border-ridge{
+    margin: 20px;
+    border: 10px ridge yellow;
+}
+
+.border-inset{
+    margin: 20px;
+    border: 10px inset orange;
+}
+
+.border-outset{
+    margin: 20px;
+    border: 10px outset darkmagenta;
+}
+
+.border-radius{
+    margin: 20px;
+    border: 10px solid blueviolet;
+    border-radius: 50px;
+}
+
+.border-top{
+    margin: 20px;
+    background-color: darkgray;
+    border-top: 5px solid black;
+}
+
+.border-right{
+    margin: 20px;
+    background-color: darkgray;
+    border-right: 5px solid black;
+}
+
+.border-bottom{
+    margin: 20px;
+    background-color: darkgray;
+    border-bottom: 5px solid black;
+}
+
+.border-left{
+    margin: 20px;
+    background-color: darkgray;
+    border-left: 5px solid black;
+}
+
+.overflow-scroll{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: gray;
+    overflow: scroll;
+}
+
+.overflow-hidden{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: gray;
+    overflow: hidden;
+}
+
+.box-shadow{
+    border: 1px solid black;
+    box-shadow: -20px -15px 5px 20px red;
+    /* 背景の箱が左右にずれる　箱が上下にずれる　ぼける　箱がでかくなる　*/
+}
+
+.text-center{
+    text-align: center;
+}
+
+.center{
+    width: 85%;
+    border: 1px solid black;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+

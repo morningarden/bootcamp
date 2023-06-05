@@ -1,0 +1,158 @@
+.text-blue{
+    color: blue; /* named color*/
+}
+
+.text-red{
+    color: rgb(136,0,0);
+}
+
+.text-red-50{
+    color: rgb(136,0,0);
+    opacity: .5; /* transparency */
+}
+
+.text-green{
+    color: rgba(89,221,0,0.9);
+    /* 90% transparent */
+}
+
+.text-violet{
+    color: #8900ce; /* hexadecimal */
+}
+
+.font-serif{
+    font-family: serif;
+}
+
+.font-sans-serif{
+    font-family: sans-serif;
+}
+
+.font-monospace{
+    font-family: monospace;
+}
+
+.font-size-50px{
+    font-size: 50px;
+}
+
+.font-size-3em{
+    font-size: 3em;
+}
+
+.font-size-200percent{
+    font-size: 200%;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.text-normal{
+     font-weight: normal;
+}
+
+.text-lighter{
+    font-weight:  lighter;
+}
+
+.text-500{
+    font-weight: 500;
+}
+
+.text-700{
+    font-weight: 700;
+}
+
+.fst-normal{
+    font-style: normal;
+}
+
+.fst-italic{
+    font-style: italic;
+}
+
+.fst-oblique{
+    font-style: oblique;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.text-lowercase{
+    text-transform: lowercase;
+}
+
+.text-capitalize{
+    text-transform: capitalize;
+}
+
+.text-decoration-overline{
+    text-decoration: overline;
+}
+
+.text-decoration-line-through{
+
+    text-decoration: line-through;
+}
+
+.text-decoration-underline{
+    text-decoration: underline;
+}
+
+.text-decoration-none{
+    text-decoration: none;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-shadow{
+    text-shadow: -10px -15px 6px darkred;
+}
+
+.text-indent-50px{
+    text-indent: 50px;
+}
+
+.text-indent-3em{
+    text-indent: 3em;
+}
+
+.text-indent-50percent{
+    text-indent: 50%;
+}
+
+.letter-spaceing-10px{
+    letter-spacing: 10px;
+}
+
+.letter-spaceing-20px{
+    letter-spacing: 20px;
+}
+
+.letter-spaceing-300px{
+    initial-letter: 300px;
+}
+
+.word-spacing-10px{
+    word-spacing: 10px;
+}
+
+.word-spacing-20px{
+    word-spacing: 20px;
+}
+
+.word-spacing-30px{
+    word-spacing: 30px;
+}

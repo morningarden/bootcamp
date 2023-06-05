@@ -1,0 +1,52 @@
+/* eternal CSS */
+/* element selector */
+h2{
+    color: darkred;
+}
+
+/* universal selector */
+*{
+    border: 1px dotted gray;
+}
+
+/* class selector */
+/* Note: a class name can be used repeatedly by many elements inside your web document */
+.paragraph-2{
+    color: indianred;
+    background-color: lightseagreen;
+    text-align: center;
+}
+
+/* id selector */
+/* Note: the id name cannot be used repeatedly. It can only be used once inside your web document*/
+/* no id name should be the same inside the web document. */
+#sub-topic-2{
+    color: white;
+    background-color: maroon;
+    text-align: center;
+}
+
+h3{
+    color: midnightblue;
+}
+
+h3{
+    color: orangered;
+}
+
+h4.text-green#heading-4{
+    color: green;
+}
+
+h4#heading-4{
+    color: purple;
+}
+
+ul li a{
+    color: hotpink;
+}
+
+.nav-links li{
+    color: lawngreen;
+}
+
